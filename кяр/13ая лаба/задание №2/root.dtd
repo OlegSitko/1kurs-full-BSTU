@@ -1,0 +1,6 @@
+<!ELEMENT root (heading,car)>
+<!ELEMENT car (car_model,engine,price)>
+<!ELEMENT car_model (#PCDATA)>
+<!ELEMENT heading (car_model,engine,price)>
+<!ELEMENT engine (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

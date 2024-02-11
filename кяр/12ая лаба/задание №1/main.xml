@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<root>
+<heading>
+<car_model>car model</car_model>
+<engine>engine</engine>
+<price>price</price>
+</heading>
+
+<car>
+<car_model>Valter</car_model>
+<engine>i4 2.3L turbo diesel</engine>
+<price>1390cr</price>
+</car>
+
+<car>
+<car_model>Predator</car_model>
+<engine>v6 3.6L turbo petrol</engine>
+<price>4560cr</price>
+</car>
+
+<car>
+<car_model>sunshine</car_model>
+<engine>i3 1.2L atmosphere petrol</engine>
+<price>560cr</price>
+</car>
+
+<car>
+<car_model>wheeled death</car_model>
+<engine>v12 10.2L atmosphere diesel</engine>
+<price>16 666cr</price>
+</car>
+
+</root>

@@ -1,0 +1,6 @@
+root{display: table;}
+heading{display: table-row;}
+car{display: table-row;}
+car_model{display: table-cell;padding: 5px;border: 1px solid black;}
+engine{display: table-cell;padding: 5px;border: 1px solid black;}
+price{display: table-cell;padding: 5px;border: 1px solid black;}

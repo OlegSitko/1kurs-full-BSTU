@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<root>
+<heading>
+<stud_name>Студент</stud_name>
+<engl>Англиский</engl>
+<trpo>ТРПО</trpo>
+<oaip>ОАиП</oaip>
+<cml>КЯР</cml>
+<spl>СЯП</spl>
+<pe>Физ-ра</pe>
+<linalg>Лин. алг</linalg>
+<calculus>Мат. ан</calculus>
+<alocvm>АЛОЦВМ</alocvm>
+</heading>
+
+<student>
+<stud_name>Авдей Алексей</stud_name>
+<engl>7</engl>
+<trpo>4</trpo>
+<oaip>6</oaip>
+<cml>3</cml>
+<spl>3</spl>
+<pe>6</pe>
+<linalg>4</linalg>
+<calculus>4</calculus>
+<alocvm>3</alocvm>
+</student>
+
+<student>
+<stud_name>Турчинович Никита</stud_name>
+<engl>2</engl>
+<trpo>2</trpo>
+<oaip>3</oaip>
+<cml>1</cml>
+<spl>0</spl>
+<pe>2</pe>
+<linalg>4</linalg>
+<calculus>5</calculus>
+<alocvm>9</alocvm>
+</student>
+
+<student>
+<stud_name>Алина Абдулалимова</stud_name>
+<engl>9</engl>
+<trpo>6</trpo>
+<oaip>6</oaip>
+<cml>6</cml>
+<spl>9</spl>
+<pe>9</pe>
+<linalg>5</linalg>
+<calculus>5</calculus>
+<alocvm>8</alocvm>
+</student>
+
+
+</root>

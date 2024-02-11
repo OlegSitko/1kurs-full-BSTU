@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>№1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+  <!-- Задание 1 -->
+    <svg   width="400" height="400" viewBox="0 0 400 400">
+    <path
+    id="text_path"
+    stroke="black"
+    stroke-width="2"
+    fill="none"
+    d="M50,250 C90,50, 300,50, 350,250" />
+  <text font-size="36px" fill="red">
+    <textPath xlink:href="#text_path">
+    Text along the curve
+    </textPath>
+  </text>
+ 
+</svg>
+
+<!-- Задание 2 -->
+<svg  width="1280px" height="576px" viewport="0 0 1280 720"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <circle fill="blue" cx="75" cy="75" r="50"/>
+  <rect x="150" y="25" width="130" height="100" fill="red"/>
+  <ellipse cx="390" cy="75" rx="90" ry="50" fill="green"/>
+  <polygon points="490 125 555 25 620 125" fill="yellow"/>
+  <path  stroke="purple" fill="none" d="M 0 150 L 350 150 275 200 620 200" />  
+</svg>
+<!-- Задание 3 -->
+<svg width="500" height="500">
+  <polygon points="230,50 300,190 160,190" style="fill:green;stroke:black;stroke-width:4;fill-rule:evenodd;"/>
+  <polygon points="230,190 340,330 120,330" style="fill:green;stroke:black;stroke-width:4;fill-rule:evenodd;"/>
+  <polygon points="230,330 360,470 100,470 " style="fill:green;stroke:black;stroke-width:4;fill-rule:evenodd;"/>
+  <circle cx="220" cy="110" r="10" fill="red" />
+  <circle cx="230" cy="250" r="10" fill="red" />
+  <circle cx="240" cy="300" r="5" fill="red" />
+  <circle cx="200" cy="300" r="5" fill="red" />
+  <circle cx="200" cy="450" r="5" fill="red" />
+  <circle cx="250" cy="390" r="5" fill="red" />
+</svg>
+<!-- Задание 4 -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280px" height="560px">
+  <defs>
+      <path id="home" d="M100 59.375l-18.75-18.75v-28.125h-12.5v15.625l-18.75-18.75-50 50v3.125h12.5v31.25h31.25v-18.75h12.5v18.75h31.25v-31.25h12.5z"/>
+  </defs>
+  <use xlink:href="#home"></use>
+  <use xlink:href="#home" transform="rotate(43)" x="120"></use>
+  <use xlink:href="#home" transform="scale(0.7)" x="240"></use>
+  <use xlink:href="#home" transform="skewX(-40)" x="360"></use>
+  <use xlink:href="#home" transform="translate(0 200)" x="480"></use>
+  </svg>
+  <!-- Задание 5 -->
+  <svg  width="1280px" height="576px" viewport="0 0 1280 720"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+  
+      <defs>
+          <linearGradient id="Gradient1">
+            <stop stop-color="yellow" offset="0%">
+              <animate attributeName="stop-color"  from="yellow" to="green"dur="5s" repeatCount="indefinite" />
+  
+            </stop>
+            
+            <stop stop-color="yellow" offset="100%" >
+            <animate attributeName="stop-color"  from="yellow" to="orange"dur="5s" repeatCount="indefinite" />
+          </stop>
+          </linearGradient>
+      </defs>
+  
+      <circle fill="blue" cx="75" cy="75" r="50"/>
+      <rect x="150" y="25" width="130" height="100" stroke-width="0" stroke="black" fill="red"><animate attributeName="stroke-width" begin="mouseover" from="0" to="5"dur="5s" repeatCount="indefinite" /></rect>
+      <ellipse cx="390" cy="75" rx="90" ry="50" fill="green"><animate attributeName="fill" begin="mousedown" from="green" to="black"dur="5s" repeatCount="indefinite" /></ellipse>
+  
+      <polygon points="490 125 555 25 620 125" fill="url(#Gradient1)" stroke-width="5" stroke="red" repeatCount="indefinite" >
+          <animate attributeName="stroke" begin="mouseover" end="mouseout"
+          from="red" to="blue"dur="5s" repeatCount="indefinite" /> 
+         
+         
+           
+      </polygon>
+      
+     
+  
+      <path  stroke="purple" fill="none" d="M 0 150 L 350 150 275 200 620 200" />  
+      
+  </svg>
+  
+  
+</body>
+</html>
