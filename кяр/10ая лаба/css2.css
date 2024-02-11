@@ -1,0 +1,60 @@
+@media ( max-width:600px ) {
+    .flex {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }  
+    .zagolovok {
+        flex-direction: column;
+        width: 90%;
+    }
+    .video {
+        flex-direction: column;
+        width: 100%;
+    }    
+   
+    .theory {
+        flex-direction: column;
+        width: 100%;
+    }
+    }
+
+
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.zagolovok {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.video {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 31%;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+.theory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 31%;
+    border: 1px solid black;
+}
+.audio {
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+}

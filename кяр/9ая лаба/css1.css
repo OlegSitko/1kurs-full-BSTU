@@ -1,0 +1,26 @@
+.grid { 
+    display: grid;
+    grid-template-rows: 220px ;
+    grid-template-columns: 30px 100px 100px; 
+    grid-gap: 10px;
+    word-break: break-all;
+    padding: 0px;
+    font-size: 20px;
+    }
+
+.zagolovok {
+    width: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.n1 {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.n2 {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}

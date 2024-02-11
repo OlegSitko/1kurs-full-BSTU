@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>№4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css4.css'>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+</head>
+<body>
+    <h1>задание №4</h1>
+    <div class="container">
+        <div class="row">
+            <div class="one column logo">
+                <img src="fit.png" alt="fit">
+            </div>
+            <div class="eleven columns menu">
+                <ul class="nav">
+                    <li><a href="задание №1.html">Задание 1.1</a></li>
+                    <li><a href="задание №1.2.html">Задание 1.2</a></li>
+                    <li><a href="задание №2.html">Задание 2</a></li>
+                    <li><a href="задание №3.1.html">Задание 3.1</a></li>
+                    <li><a href="задание №3.2.html">Задание 3.2</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns heading">display: grid Basic Page</div>
+            <div class="three columns heading">grid-template-rows: 1fr 1fr 1fr</div>
+            <div class="three columns heading">Функция repeat()</div>
+            <div class="three columns heading">grid-gap: 2vw</div>
+        </div>
+        <div class="row">
+            <div class="three columns heading-content">Превращает элемент в grid контейнер. Это все, что нужно для того,
+                что создать грид. Теперь у нас есть грид-контейнер и грид-элементы. Значения гридов создают блочный
+                контейнер. Вы так же можете использовать display: inline-grid, что создать строчный грид-контейнер. Или
+                же вы можете использовать display: subgrid, чтобы создать подсетку, это значение используется на самих
+                grid элементах.</div>
+            <div class="three columns heading-content">Выстраивает ряды в гриде. Каждое значение представляет размер
+                ряда. В этом случае все значения равны 1fr.
+                Но конечно же, для этого можно было бы использовать разные значения, такие как 100px, 7em, 30% и так
+                далее. Вы также можете назначать имена строкам вместе с их размерами.</div>
+            <div class="three columns heading-content">
+                <header>Вы можете использовать функцию repeat() для повторяющихся объявлений значения размера элемента. Для примера, вместо того, чтобы делать это:</header>
+               <p>grid-template-rows: </p> 
+                <p>1fr 1fr 1fr 1fr 1fr;</p>
+                <p>Мы можем сделать так:</p>
+                <p>grid-template-rows:</p>
+                <p>repeat(5, 1fr);</p>
+                <header>Что значительно сократит количество кода, которое вам нужно написать, особенно, если вы работаете с большими и часто повторяющимися элементами в гридах.</header>
+            </div>
+            <div class="three columns heading-content">Выставляет разрыв. То есть пробелы между грид элементами. Тут мы
+                используем vw единицу, которая относительна ширине viewport, но также мы можем использовать 10px, 1em и
+                т. д. Grid-gap свойство это сокращение для grid-row-gap и grid-column-gap свойств.</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

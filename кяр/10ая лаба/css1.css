@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+}
+.zagolovok {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.video {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 33%;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+.theory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    border: 1px solid black;
+}
+img {
+    width: 200px;
+    margin-left: 20px;
+}
+h1 {
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    font-size: 40px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.audio {
+    border: 1px solid black;
+    width: 28%;
+    padding: 20px;
+}

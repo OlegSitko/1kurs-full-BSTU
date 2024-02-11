@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-rows: 80px 80px 100px ;
+    grid-gap: 10px;
+    word-break: break-all;
+    
+}
+.n1 {
+    border: 1px solid black;
+    grid-row: span 2;
+    padding: 10px;
+}
+.n2 {
+    border: 1px solid black;
+    padding: 10px;
+}
+.n3 {
+    border: 1px solid black;
+    padding: 10px;
+}
+.zagolovok {
+    border: 1px solid black;
+    grid-row: span 2;
+    width: 10px;
+    padding: 5px;
+}

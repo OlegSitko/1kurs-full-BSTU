@@ -1,0 +1,126 @@
+@import 'var/var.scss';
+@function fontSize($size){
+    @if ($size >= 25px){
+        @return $size - 10px;
+    }
+    @else {
+        @return $size - 5px;
+    }
+    
+}
+@mixin fontz($size, $c) {
+    font-size: $size;
+    color: $c;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    gap: $gap;
+    @include fontz(20px, rgb(17, 16, 16));
+    flex-wrap: wrap;
+    .s1 {
+        border: $border;
+        width: 99%;
+
+    img {
+        padding: 10px;
+        width: 60px;
+        position: absolute;
+
+    }
+     ul {
+        margin-left: 800px ;
+    li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    }
+    }
+    .zagolovok {
+        flex-direction: row;
+        width: 75%;
+        border: $border;
+        text-align: center;
+        height: 60px;
+        justify-content: left;
+    }  
+    .form {
+        justify-content: end;
+        width: 22.8%;
+        height: 300px;
+        border: $border;
+        padding: 5px;
+        text-align: left;
+    }
+    .text1 {
+        border: $border;
+        width: 24.7%;
+        margin-top: -245px;
+    }
+    
+    
+    
+        
+     .block2 {
+        width: 75%;
+        .zagolovok2 {
+            border: $border;
+            text-align: center;
+            width: 100%;
+            
+        }
+        img{
+            margin-top: 5px;
+            width: 239px;
+            margin-left: 10px;
+        }
+    .info {
+        border: $border;
+        text-align: center;
+        width: 100%;
+        p {
+            width: 100%;
+        }
+    }  
+    }
+     .block1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $gap;
+        width: 24%;
+        
+    .zagolovok1 {
+        flex-direction: row;
+        text-align: center;
+        border: $border;
+        width: 100%;
+        height: 90px;
+        padding: 10px;
+        margin-top: -100px;
+    }
+    .text2 {
+        flex-direction: row;
+        display: block;
+        border: $border;
+        width: 210px;
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+    .alltext {
+        margin-top: -150px;
+
+    }
+    .photo {
+        padding: 1px;
+        margin-top: -166px;
+    }
+    img {
+        display: block;
+        width: 90px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    }
+    
+}
